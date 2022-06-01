@@ -1,4 +1,4 @@
-﻿## ---(Apple)---
+## ---(Apple)---
 ## > Apple
 #DOMAIN,testflight.apple.com
 #DOMAIN,apple.comscoreresearch.com
@@ -107,45 +107,45 @@ DOMAIN-SUFFIX,discordapp.net
 #DOMAIN-SUFFIX,helpshift.com
 #DOMAIN-SUFFIX,paragon.com
 #DOMAIN-SUFFIX,unrealengine.com
-# > Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com
-DOMAIN-SUFFIX,blizzard.com
-DOMAIN,blizzard.nefficient.co.kr
-DOMAIN,blzddist1-a.akamaihd.net
-DOMAIN,blzddistkr1-a.akamaihd.net
-DOMAIN,bnetproduct-a.akamaihd.net
+## > Blizzard
+#DOMAIN-SUFFIX,battle.net
+#DOMAIN-SUFFIX,battlenet.com
+#DOMAIN-SUFFIX,blizzard.com
+#DOMAIN,blizzard.nefficient.co.kr
+#DOMAIN,blzddist1-a.akamaihd.net
+#DOMAIN,blzddistkr1-a.akamaihd.net
+#DOMAIN,bnetproduct-a.akamaihd.net
 ## > Nintendo
 #DOMAIN-SUFFIX,nintendo.com
 #DOMAIN-SUFFIX,nintendo.net
-# Steam
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamstat.us
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,underlords.com
-DOMAIN-SUFFIX,valvesoftware.com
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN,steampipe.akamaized.net
-DOMAIN,api.steampowered.com
-DOMAIN,store.steampowered.com
-DOMAIN-KEYWORD,steamcdn,Steam
-DOMAIN-KEYWORD,steamstore,Steam
-DOMAIN-KEYWORD,steamuserimages,Steam
-DOMAIN-KEYWORD,steambroadcast,Steam
+## Steam
+#DOMAIN-SUFFIX,steam-chat.com
+#DOMAIN-SUFFIX,steamcontent.com
+#DOMAIN-SUFFIX,steamgames.com
+#DOMAIN-SUFFIX,steampowered.com
+#DOMAIN-SUFFIX,steamstat.us
+#DOMAIN-SUFFIX,steamstatic.com
+#DOMAIN-SUFFIX,steamusercontent.com
+#DOMAIN-SUFFIX,steamcommunity.com
+#DOMAIN-SUFFIX,fanatical.com
+#DOMAIN-SUFFIX,humblebundle.com
+#DOMAIN-SUFFIX,playartifact.com
+#DOMAIN-SUFFIX,underlords.com
+#DOMAIN-SUFFIX,valvesoftware.com
+#DOMAIN,steambroadcast.akamaized.net
+#DOMAIN,steamcdn-a.akamaihd.net
+#DOMAIN,steamcommunity-a.akamaihd.net
+#DOMAIN,steamstore-a.akamaihd.net
+#DOMAIN,steamusercontent-a.akamaihd.net
+#DOMAIN,steamusercontent-a.akamaihd.net
+#DOMAIN,steamuserimages-a.akamaihd.net
+#DOMAIN,steampipe.akamaized.net
+#DOMAIN,api.steampowered.com
+#DOMAIN,store.steampowered.com
+#DOMAIN-KEYWORD,steamcdn,Steam
+#DOMAIN-KEYWORD,steamstore,Steam
+#DOMAIN-KEYWORD,steamuserimages,Steam
+#DOMAIN-KEYWORD,steambroadcast,Steam
 
 # ---(GlobalOthers)---
 # > Amazon
@@ -154,13 +154,13 @@ DOMAIN,d3c33hcgiwev3.cloudfront.net
 DOMAIN,payments-jp.amazon.com
 DOMAIN,s3-ap-northeast-1.amazonaws.com
 DOMAIN,s3-ap-southeast-2.amazonaws.com 
-# > Bahamut
-PROCESS-NAME,tw.com.gamer.android.animad
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN,bahamut.akamaized.net
-DOMAIN,gamer-cds.cdn.hinet.net
-DOMAIN,gamer2-cds.cdn.hinet.net
+## > Bahamut
+#PROCESS-NAME,tw.com.gamer.android.animad
+#DOMAIN-SUFFIX,bahamut.com.tw
+#DOMAIN-SUFFIX,gamer.com.tw
+#DOMAIN,bahamut.akamaized.net
+#DOMAIN,gamer-cds.cdn.hinet.net
+#DOMAIN,gamer2-cds.cdn.hinet.net
 # > DMM
 PROCESS-NAME,com.dmm.app.movieplayer
 DOMAIN-SUFFIX,dmm.co.jp
@@ -319,124 +319,3 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
-
-
-
-# ---(Tencent)---
-# > Tencent Video
-DOMAIN-SUFFIX,video.qq.com
-DOMAIN-SUFFIX,vv.video.qq.com
-DOMAIN-SUFFIX,i.qq.com
-DOMAIN-SUFFIX,v.qq.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,tencent.com
-# > QQ Music
-DOMAIN-SUFFIX,music.qq.com
-DOMAIN-SUFFIX,music.tc.qq.com
-DOMAIN-SUFFIX,qqmusic.qq.com
-DOMAIN-SUFFIX,tencentmusic.com
-DOMAIN-SUFFIX,y.qq.com
-DOMAIN,aqqmusic.tc.qq.com
-DOMAIN,moo.qq.com
-# > Wechat
-DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,wxapp.tc.qq.com
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,wechatlegal.net
-DOMAIN-SUFFIX,wechatpay.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,weixinbridge.com
-DOMAIN-SUFFIX,weixinsxy.com
-
-# ---(Alibaba)
-# > Alibaba
-DOMAIN-SUFFIX,alibaba.com
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,dingtalk.com
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,ykimg.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,xiami.com
-DOMAIN-SUFFIX,xiami.net
-
-# ---(Baidu)---
-# > Baidu
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,baidubcr.com
-DOMAIN-SUFFIX,bdstatic.com
-
-# ---(ChinaOthers)---
-# > Acfun
-DOMAIN-SUFFIX,acfun.cn
-DOMAIN-SUFFIX,aixifan.com
-## > Bilibili
-## USER-AGENT,Bilibili*
-## USER-AGENT,bili*
-## USER-AGENT,bili-inter*
-#DOMAIN-KEYWORD,bilibili
-#DOMAIN,apiintl.biliapi.net
-#DOMAIN,upos-hz-mirrorakam.akamaized.net
-#DOMAIN-SUFFIX,acg.tv
-#DOMAIN-SUFFIX,acgvideo.com
-#DOMAIN-SUFFIX,b23.tv
-#DOMAIN-SUFFIX,bigfun.cn
-#DOMAIN-SUFFIX,bigfunapp.cn
-#DOMAIN-SUFFIX,biliapi.com
-#DOMAIN-SUFFIX,biliapi.net
-#DOMAIN-SUFFIX,bilibili.com
-#DOMAIN-SUFFIX,bilibili.tv
-#DOMAIN-SUFFIX,biligame.com
-#DOMAIN-SUFFIX,biligame.net
-#DOMAIN-SUFFIX,bilivideo.cn
-#DOMAIN-SUFFIX,bilivideo.com
-#DOMAIN-SUFFIX,hdslb.com
-#DOMAIN-SUFFIX,im9.com
-#DOMAIN-SUFFIX,smtcdns.net
-# > ByteDance
-DOMAIN-SUFFIX,bytecdn.cn
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,toutiao.com
-# > iQiyi
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,71edge.com
-DOMAIN-SUFFIX,71.am.com
-DOMAIN-SUFFIX,qy.net
-DOMAIN-KEYWORD,qiyi
-# > JD
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,jd.hk
-DOMAIN-SUFFIX,360buyimg.com
-# > Netease Cloud Music
-DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,music.126.net
-DOMAIN-SUFFIX,163yun.com
-DOMAIN-SUFFIX,api.iplay.163.com
-DOMAIN-SUFFIX,hz.netease.com
-DOMAIN-SUFFIX,mam.netease.com
-DOMAIN,mam.netease.com
-DOMAIN,api.iplay.163.com
-DOMAIN-SUFFIX,music.163.com.163jiasu.com
-# > Youku
-DOMAIN-SUFFIX,soku.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,ykimg.com
-
-
-
-
-
-
-
-
-
-
-
