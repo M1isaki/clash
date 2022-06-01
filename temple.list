@@ -1,0 +1,442 @@
+﻿## ---(Apple)---
+## > Apple
+#DOMAIN,testflight.apple.com
+#DOMAIN,apple.comscoreresearch.com
+#DOMAIN-SUFFIX,aaplimg.com
+#DOMAIN-SUFFIX,akadns.net
+#DOMAIN-SUFFIX,apple-cloudkit.com
+#DOMAIN-SUFFIX,apple.co
+#DOMAIN-SUFFIX,apple.com
+#DOMAIN-SUFFIX,apple.com.cn
+#DOMAIN-SUFFIX,apple.news
+#DOMAIN-SUFFIX,appstore.com
+#DOMAIN-SUFFIX,cdn-apple.com
+#DOMAIN-SUFFIX,crashlytics.com
+#DOMAIN-SUFFIX,icloud-content.com
+#DOMAIN-SUFFIX,icloud.com
+#DOMAIN-SUFFIX,icloud.com.cn
+#DOMAIN-SUFFIX,itunes.com
+#DOMAIN-SUFFIX,me.com
+#DOMAIN-SUFFIX,mzstatic.com
+
+## ---(Microsoft)---
+## > Outlook
+#DOMAIN,outlook.office365.com
+#DOMAIN,smtp-mail.outlook.com
+#DOMAIN,smtp.office365.com
+## > OneDrive
+#PROCESS-NAME,OneDrive
+#DOMAIN-KEYWORD,1drv
+#DOMAIN-KEYWORD,onedrive
+#DOMAIN-KEYWORD,skydrive
+#DOMAIN-SUFFIX,livefilestore.com
+#DOMAIN-SUFFIX,oneclient.sfx.ms
+#DOMAIN-SUFFIX,onedrive.com
+#DOMAIN-SUFFIX,onedrive.live.com
+#DOMAIN-SUFFIX,photos.live.com
+#DOMAIN-SUFFIX,sharepoint.com
+#DOMAIN-SUFFIX,sharepointonline.com
+#DOMAIN-SUFFIX,skydrive.wns.windows.com
+#DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+#DOMAIN-SUFFIX,storage.live.com
+#DOMAIN-SUFFIX,storage.msn.com
+## > Windows Server Update Services
+#DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+#DOMAIN-SUFFIX,update.microsoft.com
+#DOMAIN-SUFFIX,windowsupdate.com
+#DOMAIN-SUFFIX,windowsupdate.microsoft.com
+#DOMAIN,download.microsoft.com
+#DOMAIN,wustat.windows.com
+#DOMAIN,ntservicepack.microsoft.com
+## > Microsoft Teams
+#DOMAIN-SUFFIX,teams.cdn.live.net
+#DOMAIN-SUFFIX,teams.live.com
+#DOMAIN-SUFFIX,teams.microsoft.com
+#DOMAIN,teams.events.data.microsoft.com
+## DOMAIN,statics.teams.cdn.office.net
+
+# ----(Google)---
+# > Chromecast with Google TV
+DOMAIN-KEYWORD,pa.google
+# > Google Drive
+PROCESS-NAME,Backup and Sync
+PROCESS-NAME,com.google.android.apps.docs
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN,www.googleapis.com
+# > Google Search
+DOMAIN-KEYWORD,www.google.
+# > Google Voice
+DOMAIN,lens.l.google.com
+# > ?
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.cn
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+
+# ---(Game)---
+# > Discord
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+## > Epic
+#DOMAIN-SUFFIX,epicgames.com
+#DOMAIN-SUFFIX,helpshift.com
+#DOMAIN-SUFFIX,paragon.com
+#DOMAIN-SUFFIX,unrealengine.com
+# > Blizzard
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN,blizzard.nefficient.co.kr
+DOMAIN,blzddist1-a.akamaihd.net
+DOMAIN,blzddistkr1-a.akamaihd.net
+DOMAIN,bnetproduct-a.akamaihd.net
+## > Nintendo
+#DOMAIN-SUFFIX,nintendo.com
+#DOMAIN-SUFFIX,nintendo.net
+# Steam
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,api.steampowered.com
+DOMAIN,store.steampowered.com
+DOMAIN-KEYWORD,steamcdn,Steam
+DOMAIN-KEYWORD,steamstore,Steam
+DOMAIN-KEYWORD,steamuserimages,Steam
+DOMAIN-KEYWORD,steambroadcast,Steam
+
+# ---(GlobalOthers)---
+# > Amazon
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN,d3c33hcgiwev3.cloudfront.net
+DOMAIN,payments-jp.amazon.com
+DOMAIN,s3-ap-northeast-1.amazonaws.com
+DOMAIN,s3-ap-southeast-2.amazonaws.com 
+# > Bahamut
+PROCESS-NAME,tw.com.gamer.android.animad
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+# > DMM
+PROCESS-NAME,com.dmm.app.movieplayer
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm-extension.com
+# > Disney+
+# USER-AGENT,Disney*
+# USER-AGENT,Disney+*
+DOMAIN,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,adobedtm.com
+DOMAIN-SUFFIX,bam.nr-data.net
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,braze.com
+DOMAIN-SUFFIX,cdn.optimizely.com
+DOMAIN-SUFFIX,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,cws.conviva.com
+DOMAIN-SUFFIX,d9.flashtalking.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disney-portal.my.onetrust.com
+DOMAIN-SUFFIX,disney.demdex.net
+DOMAIN-SUFFIX,disney.my.sentry.io
+DOMAIN-SUFFIX,disneyplus.bn5x.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,js-agent.newrelic.com
+# > Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+# > Meta
+DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbaddins.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbworkmail.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,readyatdawn.com
+DOMAIN-SUFFIX,rocksdb.org
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-KEYWORD,facebook
+# > Netflix
+PROCESS-NAME,com.netflix.mediaclient
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-KEYWORD,netflixdnstest
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,dualstack.apiproxy-
+GEOIP,NETFLIX,no-resolve
+# > niconico
+PROCESS-NAME,jp.nicovideo.android
+DOMAIN-SUFFIX,dmc.nico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+# > Reddit
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+# > PayPal
+PROCESS-NAME,com.paypal.android.p2pmobile
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypalobjects.com
+# > pixiv
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pximg.net
+# > Spotify
+PROCESS-NAME,com.spotify.music
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-KEYWORD,-spotify-com
+# > Telegram
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-KEYWORD,telegram
+# > TikTok
+PROCESS-NAME,com.ss.android.ugc.trill
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-KEYWORD,tiktokcdn-
+# > Twitch
+PROCESS-NAME,tv.twitch.android.app
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
+# > Twitter
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+# > Instagram
+PROCESS-NAME,com.instagram.android
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
+# > YouTube
+PROCESS-NAME,com.google.android.youtube
+PROCESS-NAME,com.google.android.youtube.tv
+PROCESS-NAME,com.google.android.apps.youtube.music
+PROCESS-NAME,com.google.android.youtube.tvmusic
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+
+
+
+# ---(Tencent)---
+# > Tencent Video
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,vv.video.qq.com
+DOMAIN-SUFFIX,i.qq.com
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,tencent.com
+# > QQ Music
+DOMAIN-SUFFIX,music.qq.com
+DOMAIN-SUFFIX,music.tc.qq.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN,aqqmusic.tc.qq.com
+DOMAIN,moo.qq.com
+# > Wechat
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wxapp.tc.qq.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,weixinsxy.com
+
+# ---(Alibaba)
+# > Alibaba
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+
+# ---(Baidu)---
+# > Baidu
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubcr.com
+DOMAIN-SUFFIX,bdstatic.com
+
+# ---(ChinaOthers)---
+# > Acfun
+DOMAIN-SUFFIX,acfun.cn
+DOMAIN-SUFFIX,aixifan.com
+## > Bilibili
+## USER-AGENT,Bilibili*
+## USER-AGENT,bili*
+## USER-AGENT,bili-inter*
+#DOMAIN-KEYWORD,bilibili
+#DOMAIN,apiintl.biliapi.net
+#DOMAIN,upos-hz-mirrorakam.akamaized.net
+#DOMAIN-SUFFIX,acg.tv
+#DOMAIN-SUFFIX,acgvideo.com
+#DOMAIN-SUFFIX,b23.tv
+#DOMAIN-SUFFIX,bigfun.cn
+#DOMAIN-SUFFIX,bigfunapp.cn
+#DOMAIN-SUFFIX,biliapi.com
+#DOMAIN-SUFFIX,biliapi.net
+#DOMAIN-SUFFIX,bilibili.com
+#DOMAIN-SUFFIX,bilibili.tv
+#DOMAIN-SUFFIX,biligame.com
+#DOMAIN-SUFFIX,biligame.net
+#DOMAIN-SUFFIX,bilivideo.cn
+#DOMAIN-SUFFIX,bilivideo.com
+#DOMAIN-SUFFIX,hdslb.com
+#DOMAIN-SUFFIX,im9.com
+#DOMAIN-SUFFIX,smtcdns.net
+# > ByteDance
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
+# > iQiyi
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,71edge.com
+DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-KEYWORD,qiyi
+# > JD
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,360buyimg.com
+# > Netease Cloud Music
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,163yun.com
+DOMAIN-SUFFIX,api.iplay.163.com
+DOMAIN-SUFFIX,hz.netease.com
+DOMAIN-SUFFIX,mam.netease.com
+DOMAIN,mam.netease.com
+DOMAIN,api.iplay.163.com
+DOMAIN-SUFFIX,music.163.com.163jiasu.com
+# > Youku
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ykimg.com
+
+
+
+
+
+
+
+
+
+
+
