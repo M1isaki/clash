@@ -1,3 +1,6 @@
+# > Github
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,git
 ## ---(Apple)---
 ## > Apple
 #DOMAIN,testflight.apple.com
@@ -259,6 +262,7 @@ DOMAIN-SUFFIX,spotifycdn.net
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,-spotify-com
 # > Telegram
+DOMAIN-KEYWORD,telegram
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
@@ -266,7 +270,6 @@ DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telesco.pe
-DOMAIN-KEYWORD,telegram
 # > TikTok
 PROCESS-NAME,com.ss.android.ugc.trill
 DOMAIN-SUFFIX,byteoversea.com
